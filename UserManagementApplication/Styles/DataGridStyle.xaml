@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="DataGridStyle1" TargetType="{x:Type DataGrid}">
+        <Setter Property="FontFamily" Value="Tahoma"/>
+        <Setter Property="AlternatingRowBackground" Value="LightBlue"/>
+        <Setter Property="AlternationCount" Value="2"/>
+        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Visible"/>
+        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Visible"/>
+        <Setter Property="AutoGenerateColumns" Value="False"/>
+        <Setter Property="IsReadOnly" Value="True"/>
+    </Style>
+</ResourceDictionary>
